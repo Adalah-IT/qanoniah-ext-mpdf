@@ -4487,7 +4487,7 @@ class Otl
 		}
 
 		// Flag & 0x0010 = UseMarkFilteringSet
-		// if ($flag & 0x0010) {
+		 if ($flag & 0x0010) {
 			// throw new \Mpdf\MpdfException("This font [" . $this->fontkey . "] contains MarkGlyphSets - Not tested yet");
 			// Change also in ttfontsuni.php
 			if ($MarkFilteringSet == '') {
